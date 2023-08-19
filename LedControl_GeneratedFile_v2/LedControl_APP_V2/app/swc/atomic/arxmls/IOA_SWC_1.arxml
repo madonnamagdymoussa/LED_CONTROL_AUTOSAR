@@ -52,13 +52,13 @@
                   <SHORT-NAME>DIO_ReadChannel_Runnable</SHORT-NAME>
                   <MINIMUM-START-INTERVAL>0</MINIMUM-START-INTERVAL>
                   <CAN-BE-INVOKED-CONCURRENTLY>false</CAN-BE-INVOKED-CONCURRENTLY>
-                  <SYMBOL>DIO_ReadChannel</SYMBOL>
+                  <SYMBOL>IOA_SWC_DIO_ReadChannel_Runnable</SYMBOL>
                 </RUNNABLE-ENTITY>
                 <RUNNABLE-ENTITY>
                   <SHORT-NAME>Dio_WriteChannel_Runnable</SHORT-NAME>
                   <MINIMUM-START-INTERVAL>0</MINIMUM-START-INTERVAL>
                   <CAN-BE-INVOKED-CONCURRENTLY>false</CAN-BE-INVOKED-CONCURRENTLY>
-                  <SYMBOL>Dio_WriteChannel</SYMBOL>
+                  <SYMBOL>IOA_SWC_Dio_WriteChannel_Runnable</SYMBOL>
                 </RUNNABLE-ENTITY>
               </RUNNABLES>
             </SWC-INTERNAL-BEHAVIOR>

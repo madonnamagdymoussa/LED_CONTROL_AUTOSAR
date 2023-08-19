@@ -8,7 +8,7 @@
 *Event Type:operation invoked event
 *DATA ACCESS:
 */
-void DIO_ReadChannel(Port_NumID CS_1_Operation_1_Argument_PortNum,Dio_ChannelType CS_1_Operation_1_Argument_ChannelType){
+void IOA_SWC_DIO_ReadChannel_Runnable(Port_NumID CS_1_Operation_1_Argument_PortNum,Dio_ChannelType CS_1_Operation_1_Argument_ChannelType){
 
 
 }
@@ -20,7 +20,7 @@ void DIO_ReadChannel(Port_NumID CS_1_Operation_1_Argument_PortNum,Dio_ChannelTyp
 *Event Type:operation invoked event
 *DATA ACCESS:
 */
-void Dio_WriteChannel(Port_NumID CS_2_WriteChannel_Operation_1_Argument_1_PortNum,Dio_ChannelType CS_2_WriteChannel_Operation_1_Argument_2_ChannelType,Dio_LevelType CS_2_WriteChannel_Operation_1_Argument_3_LevelType){
+void IOA_SWC_Dio_WriteChannel_Runnable(Port_NumID CS_2_WriteChannel_Operation_1_Argument_1_PortNum,Dio_ChannelType CS_2_WriteChannel_Operation_1_Argument_2_ChannelType,Dio_LevelType CS_2_WriteChannel_Operation_1_Argument_3_LevelType){
 
 
 }
