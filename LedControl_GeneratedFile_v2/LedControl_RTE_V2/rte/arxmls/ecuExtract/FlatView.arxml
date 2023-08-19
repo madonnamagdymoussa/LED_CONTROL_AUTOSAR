@@ -2,10 +2,10 @@
 <AUTOSAR xmlns="http://autosar.org/schema/r4.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://autosar.org/schema/r4.0 AUTOSAR_00046.xsd">
   <AR-PACKAGES>
     <AR-PACKAGE>
-      <SHORT-NAME>TopLevelComposition_package</SHORT-NAME>
+      <SHORT-NAME>FlatView_package</SHORT-NAME>
       <ELEMENTS>
         <COMPOSITION-SW-COMPONENT-TYPE>
-          <SHORT-NAME>TopLevelComposition</SHORT-NAME>
+          <SHORT-NAME>FlatView</SHORT-NAME>
           <COMPONENTS>
             <SW-COMPONENT-PROTOTYPE>
               <SHORT-NAME>TopLevelComposition_Prototype_1</SHORT-NAME>
@@ -22,46 +22,46 @@
           </COMPONENTS>
           <CONNECTORS>
             <ASSEMBLY-SW-CONNECTOR>
-              <SHORT-NAME>ASC_Connection_1</SHORT-NAME>
+              <SHORT-NAME>TopLevelComposition_Prototype_1_P_Port_1_SR1_Button1State_TopLevelComposition_Prototype_2_R_Port_1_SR1_Button1State</SHORT-NAME>
               <PROVIDER-IREF>
-                <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/TopLevelComposition_package/TopLevelComposition/TopLevelComposition_Prototype_1</CONTEXT-COMPONENT-REF>
+                <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/FlatView_package/FlatView/TopLevelComposition_Prototype_1</CONTEXT-COMPONENT-REF>
                 <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/Application1_SWC_ButtonStateReading_package/Application1_SWC_ButtonStateReading/P_Port_1_SR1_Button1State</TARGET-P-PORT-REF>
               </PROVIDER-IREF>
               <REQUESTER-IREF>
-                <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/TopLevelComposition_package/TopLevelComposition/TopLevelComposition_Prototype_2</CONTEXT-COMPONENT-REF>
+                <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/FlatView_package/FlatView/TopLevelComposition_Prototype_2</CONTEXT-COMPONENT-REF>
                 <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/Application2_SWC_LedSwitching_package/Application2_SWC_LedSwitching/R_Port_1_SR1_Button1State</TARGET-R-PORT-REF>
               </REQUESTER-IREF>
             </ASSEMBLY-SW-CONNECTOR>
             <ASSEMBLY-SW-CONNECTOR>
-              <SHORT-NAME>ASC_Connection_2</SHORT-NAME>
+              <SHORT-NAME>TopLevelComposition_Prototype_1_P_Port_2_SR2_Button2State_TopLevelComposition_Prototype_2_R_Port_2_SR2_Button2State</SHORT-NAME>
               <PROVIDER-IREF>
-                <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/TopLevelComposition_package/TopLevelComposition/TopLevelComposition_Prototype_1</CONTEXT-COMPONENT-REF>
+                <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/FlatView_package/FlatView/TopLevelComposition_Prototype_1</CONTEXT-COMPONENT-REF>
                 <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/Application1_SWC_ButtonStateReading_package/Application1_SWC_ButtonStateReading/P_Port_2_SR2_Button2State</TARGET-P-PORT-REF>
               </PROVIDER-IREF>
               <REQUESTER-IREF>
-                <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/TopLevelComposition_package/TopLevelComposition/TopLevelComposition_Prototype_2</CONTEXT-COMPONENT-REF>
+                <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/FlatView_package/FlatView/TopLevelComposition_Prototype_2</CONTEXT-COMPONENT-REF>
                 <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/Application2_SWC_LedSwitching_package/Application2_SWC_LedSwitching/R_Port_2_SR2_Button2State</TARGET-R-PORT-REF>
               </REQUESTER-IREF>
             </ASSEMBLY-SW-CONNECTOR>
             <ASSEMBLY-SW-CONNECTOR>
-              <SHORT-NAME>ASC_Connection_3</SHORT-NAME>
+              <SHORT-NAME>TopLevelComposition_Prototype_3_P_Port_1_CS_1_ReadChannel_TopLevelComposition_Prototype_1_R_Port_CS_ReadChannel_App1</SHORT-NAME>
               <PROVIDER-IREF>
-                <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/TopLevelComposition_package/TopLevelComposition/TopLevelComposition_Prototype_3</CONTEXT-COMPONENT-REF>
+                <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/FlatView_package/FlatView/TopLevelComposition_Prototype_3</CONTEXT-COMPONENT-REF>
                 <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/IOA_SWC_1_package/IOA_SWC_1/P_Port_1_CS_1_ReadChannel</TARGET-P-PORT-REF>
               </PROVIDER-IREF>
               <REQUESTER-IREF>
-                <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/TopLevelComposition_package/TopLevelComposition/TopLevelComposition_Prototype_1</CONTEXT-COMPONENT-REF>
+                <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/FlatView_package/FlatView/TopLevelComposition_Prototype_1</CONTEXT-COMPONENT-REF>
                 <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/Application1_SWC_ButtonStateReading_package/Application1_SWC_ButtonStateReading/R_Port_CS_ReadChannel_App1</TARGET-R-PORT-REF>
               </REQUESTER-IREF>
             </ASSEMBLY-SW-CONNECTOR>
             <ASSEMBLY-SW-CONNECTOR>
-              <SHORT-NAME>ASC_Connection_4</SHORT-NAME>
+              <SHORT-NAME>TopLevelComposition_Prototype_3_P_Port_2_CS_2_WriteChannel_TopLevelComposition_Prototype_2_R_Port_3_CS_2_LedState</SHORT-NAME>
               <PROVIDER-IREF>
-                <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/TopLevelComposition_package/TopLevelComposition/TopLevelComposition_Prototype_3</CONTEXT-COMPONENT-REF>
+                <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/FlatView_package/FlatView/TopLevelComposition_Prototype_3</CONTEXT-COMPONENT-REF>
                 <TARGET-P-PORT-REF DEST="P-PORT-PROTOTYPE">/IOA_SWC_1_package/IOA_SWC_1/P_Port_2_CS_2_WriteChannel</TARGET-P-PORT-REF>
               </PROVIDER-IREF>
               <REQUESTER-IREF>
-                <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/TopLevelComposition_package/TopLevelComposition/TopLevelComposition_Prototype_2</CONTEXT-COMPONENT-REF>
+                <CONTEXT-COMPONENT-REF DEST="SW-COMPONENT-PROTOTYPE">/FlatView_package/FlatView/TopLevelComposition_Prototype_2</CONTEXT-COMPONENT-REF>
                 <TARGET-R-PORT-REF DEST="R-PORT-PROTOTYPE">/Application2_SWC_LedSwitching_package/Application2_SWC_LedSwitching/R_Port_3_CS_2_LedState</TARGET-R-PORT-REF>
               </REQUESTER-IREF>
             </ASSEMBLY-SW-CONNECTOR>
